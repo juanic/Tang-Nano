@@ -1,0 +1,2 @@
+IO_LOC "A" 15; //switch
+IO_LOC "B" 16; //green RGB

@@ -1,0 +1,29 @@
+Reading netlist file: "D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\impl\gwsynthesis\T06-multiples-prescalers.vg"
+Parsing netlist file "D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\impl\gwsynthesis\T06-multiples-prescalers.vg" completed
+Processing netlist completed
+Reading constraint file: "D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T06-multiples-prescalers.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Placement and routing completed
+Running timing analysis......
+[95%] Timing analysis completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\impl\pnr\T06-multiples-prescalers.power.html" completed
+Generate file "D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\impl\pnr\T06-multiples-prescalers.pin.html" completed
+Generate file "D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\impl\pnr\T06-multiples-prescalers.rpt.html" completed
+Generate file "D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\impl\pnr\T06-multiples-prescalers.rpt.txt" completed
+Generate file "D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\impl\pnr\T06-multiples-prescalers.tr.html" completed
+Wed Jan 06 15:46:16 2021
+

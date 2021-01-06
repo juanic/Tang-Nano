@@ -1,0 +1,41 @@
+//
+//Written by GowinSynthesis
+//Product Version "GowinSynthesis V1.9.7.01Beta"
+//Wed Jan 06 12:53:20 2021
+
+//Source file index table:
+//file0 "\D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T03-inv/src/T03-inv.v"
+`timescale 100 ps/100 ps
+module inv (
+  A,
+  B
+)
+;
+input A;
+output B;
+wire A_d;
+wire B_d_5;
+wire VCC;
+wire GND;
+  IBUF A_ibuf (
+    .O(A_d),
+    .I(A) 
+);
+  OBUF B_obuf (
+    .O(B),
+    .I(B_d_5) 
+);
+  INV B_d_s0 (
+    .O(B_d_5),
+    .I(A_d) 
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* inv */

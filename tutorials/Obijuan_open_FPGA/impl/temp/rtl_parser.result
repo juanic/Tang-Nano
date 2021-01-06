@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/fpga_project/src/T07-contador-prescaler.v",
+  "InstLine" : 2,
+  "InstName" : "counter4",
+  "ModuleFile" : "D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/fpga_project/src/T07-contador-prescaler.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "counter4",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/fpga_project/src/T07-contador-prescaler.v",
+    "InstLine" : 14,
+    "InstName" : "pres1",
+    "ModuleFile" : "D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T05-prescaler/src/T05-prescaler.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "prescaler"
+   }
+  ]
+ }
+]

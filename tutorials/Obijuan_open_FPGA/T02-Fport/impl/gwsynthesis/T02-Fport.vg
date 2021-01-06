@@ -1,0 +1,50 @@
+//
+//Written by GowinSynthesis
+//Product Version "GowinSynthesis V1.9.7.01Beta"
+//Wed Jan 06 10:12:13 2021
+
+//Source file index table:
+//file0 "\D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T02-Fport/src/T02-Fport.v"
+`timescale 100 ps/100 ps
+module Fport (
+  data,
+  fpga_rx,
+  fpga_tx
+)
+;
+output [2:0] data;
+input fpga_rx;
+output fpga_tx;
+wire fpga_tx_d;
+wire VCC;
+wire GND;
+  IBUF fpga_rx_ibuf (
+    .O(fpga_tx_d),
+    .I(fpga_rx) 
+);
+  OBUF data_0_obuf (
+    .O(data[0]),
+    .I(GND) 
+);
+  OBUF data_1_obuf (
+    .O(data[1]),
+    .I(GND) 
+);
+  OBUF data_2_obuf (
+    .O(data[2]),
+    .I(GND) 
+);
+  OBUF fpga_tx_obuf (
+    .O(fpga_tx),
+    .I(fpga_tx_d) 
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* Fport */

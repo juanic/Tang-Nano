@@ -1,0 +1,4 @@
+IO_LOC "clk" 35;
+IO_LOC "data[0]" 16;
+IO_LOC "data[1]" 17;
+IO_LOC "data[2]" 18;

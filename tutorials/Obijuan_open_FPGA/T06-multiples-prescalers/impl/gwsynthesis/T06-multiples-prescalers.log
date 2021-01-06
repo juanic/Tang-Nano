@@ -1,0 +1,41 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T06-multiples-prescalers.v'
+WARN  (EX3628) : Redeclaration of ansi port 'clk_in' is not allowed("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T06-multiples-prescalers.v":3)
+WARN  (EX3628) : Redeclaration of ansi port 'D1' is not allowed("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T06-multiples-prescalers.v":4)
+WARN  (EX3628) : Redeclaration of ansi port 'D2' is not allowed("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T06-multiples-prescalers.v":5)
+WARN  (EX3628) : Redeclaration of ansi port 'D3' is not allowed("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T06-multiples-prescalers.v":6)
+Analyzing Verilog file 'D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T05-prescaler.v'
+WARN  (EX3628) : Redeclaration of ansi port 'clk_in' is not allowed("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T05-prescaler.v":5)
+WARN  (EX3628) : Redeclaration of ansi port 'clk_out' is not allowed("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T05-prescaler.v":6)
+Compiling module 'mpres'("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T06-multiples-prescalers.v":2)
+Compiling module 'prescaler'("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T05-prescaler.v":4)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T05-prescaler.v":19)
+Compiling module 'prescaler(N=1)'("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T05-prescaler.v":4)
+WARN  (EX3791) : Expression size 2 truncated to fit in target size 1("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T05-prescaler.v":19)
+Compiling module 'prescaler(N=2)'("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T05-prescaler.v":4)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T05-prescaler.v":19)
+Compiling module 'prescaler(N=3)'("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T05-prescaler.v":4)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T05-prescaler.v":19)
+NOTE  (EX0101) : Current top module is "mpres"
+WARN  (EX0211) : The output port "D4" of module "mpres" has no driver("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T06-multiples-prescalers.v":2)
+[5%] Running netlist conversion ...
+WARN  (CV0003) : Output "D4" has undriven bits, assigning undriven bits to Z, simulation mismatch possible("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T06-multiples-prescalers.v":2)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\impl\gwsynthesis\T06-multiples-prescalers.vg" completed
+[100%] Generate report file "D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\impl\gwsynthesis\T06-multiples-prescalers_syn.rpt.html" completed
+GowinSynthesis finish

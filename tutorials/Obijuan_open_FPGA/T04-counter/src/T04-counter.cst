@@ -1,0 +1,4 @@
+IO_LOC  "data[15]" 16
+IO_LOC  "data[14]" 17
+IO_LOC  "data[13]" 18
+IO_LOC  "clk" 35

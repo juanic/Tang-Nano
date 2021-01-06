@@ -1,0 +1,29 @@
+Reading netlist file: "D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T01-setbit\impl\gwsynthesis\T01-setbit.vg"
+Parsing netlist file "D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T01-setbit\impl\gwsynthesis\T01-setbit.vg" completed
+Processing netlist completed
+Reading constraint file: "D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T01-setbit\src\T01-setbit.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Placement and routing completed
+Running timing analysis......
+[95%] Timing analysis completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T01-setbit\impl\pnr\T01-setbit.power.html" completed
+Generate file "D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T01-setbit\impl\pnr\T01-setbit.pin.html" completed
+Generate file "D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T01-setbit\impl\pnr\T01-setbit.rpt.html" completed
+Generate file "D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T01-setbit\impl\pnr\T01-setbit.rpt.txt" completed
+Generate file "D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T01-setbit\impl\pnr\T01-setbit.tr.html" completed
+Tue Jan 05 20:07:41 2021
+

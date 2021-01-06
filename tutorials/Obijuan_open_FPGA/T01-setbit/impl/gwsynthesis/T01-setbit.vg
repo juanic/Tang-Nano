@@ -1,0 +1,31 @@
+//
+//Written by GowinSynthesis
+//Product Version "GowinSynthesis V1.9.7.01Beta"
+//Tue Jan 05 20:07:37 2021
+
+//Source file index table:
+//file0 "\D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T01-setbit/src/T01-setbit.v"
+`timescale 100 ps/100 ps
+module setbit (
+  btn_i,
+  A
+)
+;
+input btn_i;
+output A;
+wire VCC;
+wire GND;
+  OBUF A_obuf (
+    .O(A),
+    .I(GND) 
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* setbit */
