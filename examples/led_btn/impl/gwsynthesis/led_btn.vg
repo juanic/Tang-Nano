@@ -1,0 +1,36 @@
+//
+//Written by GowinSynthesis
+//Product Version "GowinSynthesis V1.9.7.01Beta"
+//Tue Jan 05 19:39:48 2021
+
+//Source file index table:
+//file0 "\D:/Documentos/REPOS/Github/Tang-Nano/examples/led_btn/src/led_btn.v"
+`timescale 100 ps/100 ps
+module led_btn (
+  btn_i,
+  led_o
+)
+;
+input btn_i;
+output led_o;
+wire led_o_d;
+wire VCC;
+wire GND;
+  IBUF btn_i_ibuf (
+    .O(led_o_d),
+    .I(btn_i) 
+);
+  OBUF led_o_obuf (
+    .O(led_o),
+    .I(led_o_d) 
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* led_btn */

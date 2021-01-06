@@ -1,0 +1,9 @@
+-d D:\Documentos\REPOS\Tang-Nano-examples\example_led\led_prj\impl\gwsynthesis\led_prj.vg
+-p GW1N-1-QFN48-6
+-pn GW1N-LV1QN48C6/I5
+-cst D:\Documentos\REPOS\Tang-Nano-examples\example_led\led_prj\src\led_prj.cst
+-cfg D:\Documentos\REPOS\Tang-Nano-examples\example_led\led_prj\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing

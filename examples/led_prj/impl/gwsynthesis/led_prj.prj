@@ -1,0 +1,12 @@
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>Beta</Version>
+    <Device id="GW1N-1" package="QFN48" speed="6" partNumber="GW1N-LV1QN48C6/I5"/>
+    <FileList>
+        <File type="verilog"  path="D:\Documentos\REPOS\Tang-Nano-examples\example_led\led_prj\src\led.v"/>
+    </FileList>
+    <OptionList>
+        <Option type="top_module"  value="led"/>
+        <Option type="output_file"  value="D:\Documentos\REPOS\Tang-Nano-examples\example_led\led_prj\impl\gwsynthesis\led_prj.vg"/>
+    </OptionList>
+</Project>

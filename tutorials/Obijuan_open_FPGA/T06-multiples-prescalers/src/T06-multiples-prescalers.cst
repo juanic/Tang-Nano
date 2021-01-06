@@ -1,0 +1,5 @@
+IO_LOC "D1" 16
+IO_LOC "D2" 17
+IO_LOC "D3" 18
+
+IO_LOC "clk_in" 35;

@@ -1,0 +1,25 @@
+
+Starting:    C:\Gowin\Gowin_V1.9.3.01Beta\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Gowin\Gowin_V1.9.3.01Beta\SynplifyPro
+Hostname:    DESKTOP-JBVGI4H
+Date:        Tue Jan  5 18:26:28 2021
+Version:     P-2019.09G-Beta2
+
+Arguments:   -product synplify_pro -batch D:/Documentos/REPOS/Tang-Nano-examples/example_led/led_prj/impl/synthesize/led_prj.prj
+ProductType: synplify_pro
+
+Cannot find license file.
+ The license files (or license server system network addresses) attempted are 
+listed below.  Use LM_LICENSE_FILE to use a different license file,
+ or contact your software provider for a license file.
+Feature:       synplifypro
+License path:  C:\Gowin\Gowin_V1.9.3.01Beta\SynplifyPro\license.txt;
+FlexNet Licensing error:-1,234
+
+
+Host ID:  "4ccc6af8bcfe d46e0e038939 166e0e038939 266e0e038939 00ffe120c49b"
+Please contact support at https://solvnet.synopsys.com/ManageCase?ccf=1
+
+
+Running in Vendor Mode
+

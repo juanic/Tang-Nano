@@ -1,0 +1,19 @@
+Info    (PA0001) : "D:\Documentos\REPOS\Tang-Nano-examples\example_led\led_prj\impl\gwsynthesis\led_prj.vg" | Reading netlist file.
+Info    (PA0004) : Parsing netlist file 'D:\Documentos\REPOS\Tang-Nano-examples\example_led\led_prj\impl\gwsynthesis\led_prj.vg' completed.
+Info    (PA0006) : Processing netlist completed.
+Info    (CT0002) : Physical Constraint parsed completed.
+Info    (PR0001) : Placement in progress......
+Info    (PR0005) : Routing in progress......
+Info    (PR0002) : Placement and routing completed.
+Info    (TA0001) : Timing analysis completed.
+Info    (FS0001) : Bitstream generation in progress......
+Warning (FS1009) : No security bit, bit file can be read back now.
+Info    (FS0002) : Bitstream generation completed.
+Info    (PW0001) : Power analysis completed.
+Info    (CM0008) : Generate 'D:\Documentos\REPOS\Tang-Nano-examples\example_led\led_prj\impl\pnr\led_prj.power.html' file completed.
+Info    (CM0008) : Generate 'D:\Documentos\REPOS\Tang-Nano-examples\example_led\led_prj\impl\pnr\led_prj.pin.html' file completed.
+Info    (CM0008) : Generate 'D:\Documentos\REPOS\Tang-Nano-examples\example_led\led_prj\impl\pnr\led_prj.rpt.html' file completed.
+Info    (CM0008) : Generate 'D:\Documentos\REPOS\Tang-Nano-examples\example_led\led_prj\impl\pnr\led_prj.rpt.txt' file completed.
+Info    (CM0008) : Generate 'D:\Documentos\REPOS\Tang-Nano-examples\example_led\led_prj\impl\pnr\led_prj.tr.html' file completed.
+Info    (CM0001) : Tue Jan 05 18:50:17 2021
+

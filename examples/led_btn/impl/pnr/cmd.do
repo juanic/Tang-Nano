@@ -1,0 +1,10 @@
+-d D:\Documentos\REPOS\Github\Tang-Nano\examples\led_btn\impl\gwsynthesis\led_btn.vg
+-p GW1N-1-QFN48-6
+-pn GW1N-LV1QN48C6/I5
+-cst D:\Documentos\REPOS\Github\Tang-Nano\examples\led_btn\src\led_btn.cst
+-cfg D:\Documentos\REPOS\Github\Tang-Nano\examples\led_btn\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error

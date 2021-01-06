@@ -1,0 +1,16 @@
+{
+ "Files" : [
+  {
+   "Path" : "D:/Documentos/REPOS/Github/Tang-Nano/examples/led_btn/src/led_btn.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/Documentos/REPOS/Github/Tang-Nano/examples/led_btn/impl/temp/rtl_parser.result",
+ "Top" : "led_btn",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

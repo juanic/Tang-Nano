@@ -1,0 +1,3 @@
+-p GW1N-1-QFN48-6
+-i D:\Documentos\REPOS\Tang-Nano-examples\example_led\led_prj\src\led.v
+-top_module led
