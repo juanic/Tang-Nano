@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="shift4" Register="5" Lut="1">
+    <SubModule name="pres1" Register="24" Alu="23" Lut="1"/>
+</Module>

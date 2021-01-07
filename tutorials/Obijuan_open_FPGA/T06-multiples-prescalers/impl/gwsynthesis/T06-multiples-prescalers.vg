@@ -1,11 +1,11 @@
 //
 //Written by GowinSynthesis
 //Product Version "GowinSynthesis V1.9.7.01Beta"
-//Wed Jan 06 15:46:13 2021
+//Thu Jan 07 12:13:58 2021
 
 //Source file index table:
-//file0 "\D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T06-multiples-prescalers/src/T06-multiples-prescalers.v"
-//file1 "\D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T06-multiples-prescalers/src/T05-prescaler.v"
+//file0 "\D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T06-multiples-prescalers/src/T05-prescaler.v"
+//file1 "\D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T06-multiples-prescalers/src/T06-multiples-prescalers.v"
 `timescale 100 ps/100 ps
 module prescaler (
   clk_in_d,

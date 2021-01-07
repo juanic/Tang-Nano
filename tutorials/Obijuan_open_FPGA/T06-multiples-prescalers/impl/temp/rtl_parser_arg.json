@@ -1,11 +1,11 @@
 {
  "Files" : [
   {
-   "Path" : "D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T06-multiples-prescalers/src/T06-multiples-prescalers.v",
+   "Path" : "D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T06-multiples-prescalers/src/T05-prescaler.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T06-multiples-prescalers/src/T05-prescaler.v",
+   "Path" : "D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T06-multiples-prescalers/src/T06-multiples-prescalers.v",
    "Type" : "verilog"
   }
  ],

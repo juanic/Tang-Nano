@@ -1,13 +1,13 @@
 GowinSynthesis start
 Running parser ...
+Analyzing Verilog file 'D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T05-prescaler.v'
+WARN  (EX3628) : Redeclaration of ansi port 'clk_in' is not allowed("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T05-prescaler.v":5)
+WARN  (EX3628) : Redeclaration of ansi port 'clk_out' is not allowed("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T05-prescaler.v":6)
 Analyzing Verilog file 'D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T06-multiples-prescalers.v'
 WARN  (EX3628) : Redeclaration of ansi port 'clk_in' is not allowed("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T06-multiples-prescalers.v":3)
 WARN  (EX3628) : Redeclaration of ansi port 'D1' is not allowed("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T06-multiples-prescalers.v":4)
 WARN  (EX3628) : Redeclaration of ansi port 'D2' is not allowed("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T06-multiples-prescalers.v":5)
 WARN  (EX3628) : Redeclaration of ansi port 'D3' is not allowed("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T06-multiples-prescalers.v":6)
-Analyzing Verilog file 'D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T05-prescaler.v'
-WARN  (EX3628) : Redeclaration of ansi port 'clk_in' is not allowed("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T05-prescaler.v":5)
-WARN  (EX3628) : Redeclaration of ansi port 'clk_out' is not allowed("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T05-prescaler.v":6)
 Compiling module 'mpres'("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T06-multiples-prescalers.v":2)
 Compiling module 'prescaler'("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T05-prescaler.v":4)
 WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T05-prescaler.v":19)

@@ -1,0 +1,31 @@
+//
+//Written by GowinSynthesis
+//Product Version "GowinSynthesis V1.9.7.01Beta"
+//Thu Jan 07 14:25:11 2021
+
+//Source file index table:
+//file0 "\D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T09-inicializador/src/T09-inicializador.v"
+`timescale 100 ps/100 ps
+module init (
+  clk,
+  ini
+)
+;
+input clk;
+output ini;
+wire VCC;
+wire GND;
+  OBUF ini_obuf (
+    .O(ini),
+    .I(GND) 
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* init */

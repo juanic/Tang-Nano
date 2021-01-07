@@ -1,0 +1,10 @@
+-d D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T10-shif-register\impl\gwsynthesis\T10-shif-register.vg
+-p GW1N-1-QFN48-6
+-pn GW1N-LV1QN48C6/I5
+-cst D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T10-shif-register\src\T10-shif-register.cst
+-cfg D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T10-shif-register\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error

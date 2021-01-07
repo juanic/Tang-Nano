@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T08-register/src/T08-register.v",
+  "InstLine" : 2,
+  "InstName" : "blink4",
+  "ModuleFile" : "D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T08-register/src/T08-register.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "blink4",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T08-register/src/T08-register.v",
+    "InstLine" : 19,
+    "InstName" : "PRES",
+    "ModuleFile" : "D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T08-register/src/T05-prescaler.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "prescaler"
+   }
+  ]
+ }
+]

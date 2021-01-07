@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T10-shif-register/src/T10-shif-register.v",
+  "InstLine" : 2,
+  "InstName" : "shift4",
+  "ModuleFile" : "D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T10-shif-register/src/T10-shif-register.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "shift4",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T10-shif-register/src/T10-shif-register.v",
+    "InstLine" : 22,
+    "InstName" : "pres1",
+    "ModuleFile" : "D:/Documentos/REPOS/Github/Tang-Nano/tutorials/Obijuan_open_FPGA/T10-shif-register/src/T05-prescaler.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "prescaler"
+   }
+  ]
+ }
+]

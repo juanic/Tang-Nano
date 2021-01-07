@@ -4,8 +4,8 @@
     <Version>beta</Version>
     <Device id="GW1N-1" package="QFN48" speed="6" partNumber="GW1N-LV1QN48C6/I5"/>
     <FileList>
-        <File path="D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T06-multiples-prescalers.v" type="verilog"/>
         <File path="D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T05-prescaler.v" type="verilog"/>
+        <File path="D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T06-multiples-prescalers\src\T06-multiples-prescalers.v" type="verilog"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>

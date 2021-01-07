@@ -1,0 +1,29 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T10-shif-register\src\T10-shif-register.v'
+Analyzing Verilog file 'D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T10-shif-register\src\T05-prescaler.v'
+WARN  (EX3628) : Redeclaration of ansi port 'clk_in' is not allowed("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T10-shif-register\src\T05-prescaler.v":5)
+WARN  (EX3628) : Redeclaration of ansi port 'clk_out' is not allowed("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T10-shif-register\src\T05-prescaler.v":6)
+Compiling module 'shift4'("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T10-shif-register\src\T10-shif-register.v":2)
+Compiling module 'prescaler(N=24)'("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T10-shif-register\src\T05-prescaler.v":4)
+WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T10-shif-register\src\T05-prescaler.v":19)
+NOTE  (EX0101) : Current top module is "shift4"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T10-shif-register\impl\gwsynthesis\T10-shif-register.vg" completed
+[100%] Generate report file "D:\Documentos\REPOS\Github\Tang-Nano\tutorials\Obijuan_open_FPGA\T10-shif-register\impl\gwsynthesis\T10-shif-register_syn.rpt.html" completed
+GowinSynthesis finish
